@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class picktheday {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
-        System.out.print("enter a day (1-7): ");
-        int day = scn.nextInt();
+        
 
         switch (day) {
             case 1: 
