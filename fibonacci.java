@@ -3,10 +3,10 @@
 
 public class fibonacci {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
 
         System.out.print("Enter n: ");
-        int n = input.nextInt();
+        int n = scn.nextInt();
 
         int a = 0, b = 1;
 
