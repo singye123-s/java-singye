@@ -1,9 +1,11 @@
 
 public class Employee {
     int empno;
+    static int count = 0;
     String name;
     float sal;
     Employee(){
+        count++;
         System.out.println("*********");
         empno = 101;
         name ="aashish";
@@ -24,5 +26,6 @@ class Main{
         emp1.displayDetails();
         emp2.displayDetails();
         emp3.displayDetails();
+        System.out.println(Employee.count);
     }
 }
