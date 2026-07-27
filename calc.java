@@ -5,13 +5,13 @@ public class calc {
         Scanner scn = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        double num1 = scn.nextDouble();
+        double num1 = scn.nextFloat();
 
         System.out.print("(+, -, *, /): ");
         char operator = scn.next().charAt(0);
 
         System.out.print("Enter second number: ");
-        double num2 = scn.nextDouble();
+        double num2 = scn.nextFloat();
 
         double result;
 
