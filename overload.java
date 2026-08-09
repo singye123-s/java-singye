@@ -4,7 +4,7 @@ public class overload{
         return x * 2;
     }
     int multiply( int x, int y ){
-        return x * 10;
+        return x * y;
 
     }
     public static void main(String[] args){
