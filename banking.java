@@ -8,7 +8,7 @@ public class banking {
         Scanner sc = new Scanner(System.in);
        try {
               
-              System.out.println("What is your bank id ( letters)");
+              System.out.println("What is your customer id ( letters)");
               String name = sc.nextLine();
               if ( name.equals("AOPEICG")){
                 throw new Exception("Your bank subscription has ran out");
