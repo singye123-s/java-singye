@@ -1,6 +1,6 @@
 public class methodhw {
 
-    static void sayHello() {
+     static void sayHello() {
         System.out.println("Hello!");
     }
 
